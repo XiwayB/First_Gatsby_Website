@@ -1,5 +1,6 @@
 import React from "react"
 import "./HeroSection.css"
+import {Button} from "../ButtonElements"
 
 function HeroSection() {
   return (
@@ -7,7 +8,7 @@ function HeroSection() {
       <h1>Hi,</h1>
       <h2>I'm Xiway</h2>
       <h2>A passionnate</h2>
-      <button>Contact me</button>
+      <Button to="/contact/">CONTACT ME</Button>
     </div>
   )
 }

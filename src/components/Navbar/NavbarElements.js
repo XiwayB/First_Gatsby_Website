@@ -2,15 +2,16 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const Nav = styled.nav`
-  background: ${({active}) => active ? "#fff" :"linear-gradient(to bottom, rgba(255,255,255, 0.9) 0%, rgba(255,255,255,0) 100M )"};
+  background: ${({active}) => active ? "#fff" : "#D9D1CA"};
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 999;
 
   @media screen and (max-width: 960px){
     background: ${({ click }) => (click ? "fff" : "transparent")};
